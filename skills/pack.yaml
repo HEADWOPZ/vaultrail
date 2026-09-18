@@ -1,0 +1,20 @@
+name: vaultrail
+version: 0.1.0
+license: MIT
+author: Kevin Lance Murray (HEADWOPZ)
+homepage: https://github.com/HEADWOPZ/vaultrail
+description: >
+  Hermes/Claude skill pack for a local VaultRail Obsidian vault.
+  Personal knowledge / agent memory — not SkillRail, LoopForge, or AlgoDesk.
+requires:
+  mcp: vaultrail
+  env:
+    - VAULTRAIL_ROOT
+cloud_sync: false
+skills:
+  - vault-search
+  - vault-morning-brief
+  - vault-thesis
+  - vault-risk-log
+  - vault-ct-draft
+  - vault-daily
